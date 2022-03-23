@@ -33,7 +33,7 @@ Request
 - optional message body
 
 Request-Line
-- Method SP Request-URI SP HTTP-Version CRLF
+- Method <space> Request-URI <space> HTTP-Version <CRLF>
 
 example request line:
 - GET /path/to/file/index.html HTTP/1.1
@@ -48,7 +48,7 @@ Reponse
 - optional message body
 
 Status-Line
-- HTTP-Version SP Status-Code SP Reason-Phrase CRLF
+- HTTP-Version <space> Status-Code <space> Reason-Phrase <CRLF>
 
 example status line:
 - HTTP/1.1 200 OK
